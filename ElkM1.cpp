@@ -17,7 +17,7 @@ size_t ElkM1::zoneState(const char* const format, std::string& input, uint8_t* c
     sscanf(input.c_str(), format, &zone, &state);
     payload[0] = zone;
     payload[1] = state;
-    return 2U; 
+    return 2U;
 }
 /**
  */
